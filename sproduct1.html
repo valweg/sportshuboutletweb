@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECOMMERCE</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+
+<!--HEADER SECTION-->
+  <section id="header">
+    <a href="#"><img src="images/logo.png" class="logo"></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="product.html">Product</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </div>
+  </section>
+
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+      <img src="images/06.png" width="100%" id="MainImg">
+      <div class="small-img-group">
+        <div class="small-img-col">
+          <img src="images/07.png" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="images/08.png" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="images/09.png" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="images/10.png" width="100%" class="small-img">
+        </div>
+      </div>
+    </div>
+    <div class="single-pro-details">
+      <h6>Sports Clothing</h6>
+      <h4>SH-PRO CYCLING JERSEY</h4>
+      <h2>₱350.00</h2>
+      <h4>Product Details</h4>
+      <span>You wanted the best, and our SH Pro Jersey gives you the best. It represents everything that we know how to do with a cycling jersey, so you can expect a surreal, ready-to-race fit, premium fabrics, a thoughtful and Will give you the best Cycling jersey.</span>
+
+    </div>
+  </section> 
+
+
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For Newsletter</h4>
+      <p>Get E-mail updates about our latest shops and <span>special offers.</span>
+      </p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Your E-mail address">
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    
+    <div class="containerr">
+      <div class="row1">
+        
+        <div class="footer-col">
+        </div>
+        <div class="footer-col">
+          <h6>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h6>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h6>online shop</h4>
+          <ul>
+            <li><a href="#">clothes</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">equipment</a></li>
+          </ul>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+ </footer>
+
+
+ <script>
+  var mainImg = document.getElementById("MainImg");
+  var smallImg = document.getElementsByClassName("small-img");
+
+  smallImg[0].onclick = function(){
+    mainImg.src = smallImg[0].src;
+  }
+  smallImg[1].onclick = function(){
+    mainImg.src = smallImg[1].src;
+  }
+  smallImg[2].onclick = function(){
+    mainImg.src = smallImg[2].src;
+  }
+  smallImg[3].onclick = function(){
+    mainImg.src = smallImg[3].src;
+  }
+
+</script>
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>
